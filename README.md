@@ -68,42 +68,52 @@ The most striking finding is the return rate: roughly half of all customers retu
 
 ### Purchase Amount Distribution (Z-Score)
 ![Z-Score Distribution](images/z_score.png)
+
 This KDE plot shows the standardized distribution of purchase amounts with outlier thresholds marked at ±2 standard deviations. The flat, evenly spread shape confirms there is no single dominant spending tier, and extreme purchase values are rare — indicating a broadly consistent spending pattern across the customer base.
 
 ### Top 3 Product Categories
 ![Top 3 Product Categories](images/top3_product_category.png)
+
 Electronics, Clothing, and Toys lead in order volume, closely followed by one another. This tells the business exactly where to concentrate inventory and promotional spend, while flagging under-performing categories that may need repositioning or bundling.
 
 ### Return Rate Overview
 ![Return Rate](images/returned_rate.png)
+
 Nearly 50% of customers have returned a product, making this one of the most business-critical metrics in the dataset. A return rate this high, paired with a neutral review average, points to systemic issues in product quality, delivery, or expectation-setting rather than isolated incidents.
 
 ### Product Category by Return Status
 ![Product Category by Return](images/Product_category_by_return.png)
+
 Electronics and Toys show disproportionately high return counts relative to their order volume. Electronics returns likely stem from product sensitivity and unmet expectations, while Toys — despite lower order volume — show quality-related dissatisfaction, making both categories priorities for quality control review.
 
 ### Time Spent on Website vs. Purchase Amount
 ![Time vs Purchase Amount](images/timeSpend_vs_purchase_amount.png)
+
 Despite intuition suggesting longer browsing leads to bigger purchases, the correlation between time spent and purchase amount is effectively zero (r = 0.01). This challenges any strategy built around "engagement time" as a proxy for purchase intent, and instead points to friction or decision-making issues in the browsing experience.
 
 ### Average Review Score by Payment Method
 ![Review Score by Payment Method](images/avg_review_score_by_payment.png)
+
 Cash on Delivery, despite being associated with the highest review score numerically, shows consistently weaker satisfaction patterns when segmented by return status — highlighting COD as an operational pain point worth investigating further, particularly around delivery friction and payment trust.
 
 ### Average Delivery Time by Subscription Status
 ![Delivery Time by Subscription](images/avg_dTime_by_subscr.png)
+
 Premium and Free subscribers experience nearly identical delivery times (~7 days), removing one of the core value propositions premium customers would expect. This directly explains weak conversion incentive from Free to Premium tiers.
 
 ### Customer Spending: Discount vs. Non-Discount
 ![Customer Spending](images/customer_spend(dis_non_dis).png)
+
 Customers who use discounts do not spend meaningfully more than those who don't, suggesting that flat discounts are not an effective lever for increasing basket size and may simply be subsidizing purchases that would have happened anyway.
 
 ### Regional Purchase Amount and Delivery Time
 ![Location by Purchase & Delivery](images/location_by_purchase_&_delivery.png)
+
 Barisal, Khulna, and Sylhet show the highest average purchase amounts despite longer delivery windows (10–13 days), while Rangpur and Mymensingh underperform regardless of delivery speed. This identifies which regions deserve logistics investment and which need a different growth strategy entirely.
 
 ### Device Usage Distribution
 ![Device Usage](images/devices_counts.png)
+
 Purchase share is nearly evenly split across Mobile (33.7%), Desktop, and Tablet, confirming that the platform reaches a diverse technical audience and that UX investment needs to be distributed across all three surfaces rather than concentrated on one.
 
 ## Statistical Analysis
