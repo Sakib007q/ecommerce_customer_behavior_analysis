@@ -66,11 +66,6 @@ The most striking finding is the return rate: roughly half of all customers retu
 
 ## Key Visualizations
 
-### Purchase Amount Distribution (Z-Score)
-![Z-Score Distribution](images/z_score.png)
-
-This KDE plot shows the standardized distribution of purchase amounts with outlier thresholds marked at ±2 standard deviations. The flat, evenly spread shape confirms there is no single dominant spending tier, and extreme purchase values are rare — indicating a broadly consistent spending pattern across the customer base.
-
 ### Top 3 Product Categories
 ![Top 3 Product Categories](images/top3_product_category.png)
 
